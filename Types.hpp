@@ -5,6 +5,17 @@
 #include <cstring>
 #include <ostream>
 #include <cassert>
+#include <vector>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <iterator>
+#include <map>
+#include <unordered_map>
+
+using namespace std;
+
+vector<string> split(const string& s, const string& delim, const bool keep_empty = true);
 
 
 //---------------------------------------------------------------------------
